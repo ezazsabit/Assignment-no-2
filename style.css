@@ -243,14 +243,19 @@ footer{
     }
     .intro-pic{
         margin-top: 300px;
+        margin-bottom: 0px;
        position: relative;
         width: 300px
     }
     .circle{
-        display:none;
+        margin-top: 150px;
     }
     .camera{
-        display: none;
+       left: 3px;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
         
     }
     .marketplace .logos{
