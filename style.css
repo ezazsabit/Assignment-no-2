@@ -207,3 +207,143 @@ footer{
     text-decoration: none;
     color: rgba(245, 222, 179, 0.637);
 }
+
+
+/* Responsive style---- */
+/* mobilw */
+
+@media only screen and ( max-width: 688px) {
+    body{
+        width: 100%;
+    }
+    .page-top{
+        flex-direction: column;
+       
+        align-items: center;
+    }
+    .Page-name{
+        display: flex;
+        justify-content: center;
+    }
+    .page-top .navbar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .intro{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .info{
+        width: 100%;
+        
+       
+    }
+    .intro-pic{
+        margin-top: 300px;
+       position: relative;
+        width: 300px
+    }
+    .circle{
+        display:none;
+    }
+    .camera{
+        display: none;
+        
+    }
+    .marketplace .logos{
+        position:sticky;
+        display: flex;
+        flex-wrap: wrap;
+        align-items:  center;
+        margin-left: 50px;
+        margin-top: 50%;
+
+    }
+    .items{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .extra{
+        display: flex;
+        flex-direction: column;
+    }
+    .extra>img{
+        width: 200px;
+        height: 200px;
+    }
+    .extraitem{
+        width: 100%;
+    }
+    .extraitem input{
+        width: 100%;
+    }
+   
+   
+
+   
+    
+}
+
+ /* Tablet style------ */
+ @media(min-width:688px) and (max-width:992px) {
+        
+    .page-top{
+        flex-direction: column;
+       
+        align-items: center;
+    }
+    .Page-name{
+        display: flex;
+        justify-content: center;
+    }
+    .page-top .navbar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .intro{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .info{
+        width: 100%;
+       
+    }
+    .intro-pic{
+        margin-top: 300px;
+       position: relative;
+        width: 300px
+    }
+    .camera{
+        margin-top: -160px;
+        left: 30px;
+        
+
+    }
+    .marketplace{
+        display: flex;
+        margin: 0 10px;
+
+
+    }
+    .items{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .extra>img{
+        width: 200px;
+        height: 200px;
+    }
+    .extraitem{
+        width: 100%;
+    }
+    .extraitem input{
+        width: 100%;
+    }
+}
