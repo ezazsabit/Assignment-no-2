@@ -248,7 +248,7 @@ footer{
         width: 300px
     }
     .circle{
-        visibility: hidden;
+        margin-top: 150px;
     }
     .camera{
        left: 3px;
