@@ -210,7 +210,7 @@ footer{
 
 
 /* Responsive style---- */
-/* mobilw */
+/* mobile */
 
 @media only screen and ( max-width: 688px) {
     body{
@@ -248,7 +248,7 @@ footer{
         width: 300px
     }
     .circle{
-        margin-top: 150px;
+        visibility: hidden;
     }
     .camera{
        left: 3px;
